@@ -815,6 +815,10 @@ svg {
           transform: scale(1.1, 1.1);
 }
 
+.release-slider__logo img {
+  width: 280px;
+}
+
 .release-slider__data {
   font-size: 14px;
   font-weight: 300;
