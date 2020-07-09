@@ -43,7 +43,7 @@ $(document).ready(function(){
 		initialSlide: 1,
 		autoplay:true,
 		speed:800,
-
+		appendArrows:$('.release-top'),
 		responsive:[			
 			{
 				breakpoint: 550,

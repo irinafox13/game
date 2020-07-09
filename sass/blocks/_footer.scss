@@ -30,11 +30,15 @@
          margin-top: 30px;
 
          &-icon {
+            
             & + & {
                margin-left: 25px;
             }
-            svg:hover {
+            svg {
+               transition: 0.3s;
+               &:hover {
                fill: $secondary-color;
+               }
             }
 		   }
       }
@@ -46,7 +50,7 @@
          color: $font-footer;
          font-size: 12px;
          font-weight: 300;
-         
+         transition: 0.3s;
          &:hover {
             color: $secondary-color;
             text-decoration: underline;
